@@ -8,7 +8,9 @@ export default {
     extend: {
       colors: {
         darkBlue: '#002360',
-        bgGray: '#EEEEEE'
+        bgGray: '#EEEEEE',
+        lightGray:'#f6f6f6',
+        lightBlue: '#00b0cb'
       }
     },
   },

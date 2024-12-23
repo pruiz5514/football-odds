@@ -21,7 +21,7 @@ export class HttpClient {
     getHeader (){
         const headers: HeadersInit = {
             'Content-Type' : 'Aplication/json',
-            'x-rapidapi-key': '08dcbb7b0emshda08499dfca00b9p12ae9djsn748ef7da98b5',
+            'x-rapidapi-key': '97957002b7msh4a34d23e653a1d2p17ff44jsn229fdd224fad',
 		    'x-rapidapi-host': 'today-football-prediction.p.rapidapi.com'
         }
 

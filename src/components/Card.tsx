@@ -1,6 +1,7 @@
 import React from 'react'
-import OddData from './oddData'
+
 import { Match } from '../core/get-eventDay-response.dto'
+import OddData from './OddData';
 
 interface ICardProps {
     event: Match;

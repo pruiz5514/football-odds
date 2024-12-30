@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Layout from '../components/Layout'
 import Card from '../components/Card'
 import { EventsService } from '../infrastructure/services/events.services'
@@ -13,7 +13,6 @@ const Home = () => {
   const [dayEvents, setDayEvents] = useState<IEventDayResponse>();
 
   const page = parseInt(searchParams.get('page') ?? '1');
-
 
   useEffect(()=>{
     const getDayEvents = async () => {
